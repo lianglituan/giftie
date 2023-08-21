@@ -25,7 +25,7 @@ export default {
     return {
       title: '',
       messages: [],
-      owner: '',
+      owner: 'Benny',
     }
   },
 
