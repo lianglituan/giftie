@@ -6,12 +6,12 @@ export const GLOBAL_KEYS = {
 };
 
 // 是否允许对方在抽奖结束后重新抽奖
-export const IS_SHOW_RESTART = true;
+export const IS_SHOW_RESTART = false;
 
 // 首页配置
 export const homeConfig = {
   // 标题
-  title: '18th Birthday Present ',
+  title: 'Happy 18th Birthday',
   // 留言，数组的每一项代表一行
   messages: [
     { key: 'a', wording: 'Darling 雯雯', },
@@ -23,7 +23,7 @@ export const homeConfig = {
   // 抽奖转盘的动画时间，单位毫秒
   timeout: 5000,
   // 指定赠送的礼物的索引（第几个礼物中奖），取值范围 0-8
-  targetGiftIndex: 8,
+  targetGiftIndex: 7,
 };
 
 // 礼物清单
@@ -35,7 +35,7 @@ export const gifts = [
   { key: 'w', name: '核桃坚果', alias: '核桃坚果', image: '/images/2.png',  description: '「吃不完的核桃坚果」' },
   { key: 'e', name: '蕉下防晒衣', alias: '防晒衣', image: '/images/3.png',  description: '「凉感披肩防晒服,透气不闷汗」' },
   { key: 'r', name: '520红包', alias: '520', image: '/images/6.png',  description: '“想给你唱一百首情歌”' },
-  { key: 't', name: '小刘鸭生活解压包', alias: '小刘鸭生活解压包', image: '/images/5.png',  description: '「缓解焦虑,释放压力」' },
+  { key: 't', name: '小刘鸭生活解压包', alias: '生活解压包', image: '/images/5.png',  description: '「缓解焦虑,释放压力」' },
   { key: 'y', name: '1314红包', alias: '1314', image: '/images/6.png',  description: '“从今往后，我都会在你旁边”' },
   { key: 'u', name: 'Airpods pro 2', alias: '耳机', image: '/images/7.png',  description: '惊人的科技"静悄悄"' },
   { key: 'i', name: 'Apple Watch', alias: '手表', image: '/images/8.png',  description: '「健康的一大步」' },

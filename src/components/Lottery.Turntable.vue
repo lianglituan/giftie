@@ -62,7 +62,7 @@ export default {
           fullName: item.name,
           name: item.alias,
           img: item.image,
-          top: '70%',
+          top: '80%',
         };
       });
       
@@ -79,11 +79,12 @@ export default {
               src: require('../assets/images/block-bg.png'),
               activeSrc: require('../assets/images/active-block-bg.png'),
               width: '100%',
-              height: '100%',
+              height: '100%'
+
             },
             {
               src: item.img,
-              width: '70%',
+              width: '80%',
               top: '3%',
             },
           ],
